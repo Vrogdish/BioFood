@@ -7,3 +7,59 @@
 @import"./pages/product";
 @import "./components/btn";
 @import "./components/cards";
+
+@media (max-width : 1024px) {
+
+    header nav {
+        display: none;
+    }
+
+    .menu-mobile {
+       
+        display: block;
+    
+    }
+    
+
+    section {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .banner-link {
+
+        & .text {
+            font-size: 18px;
+            padding: 20px 10px;
+        }
+
+        & i {
+            padding-left: 20px;
+        }
+
+    }
+
+    .map {
+        flex-direction: column;
+
+        & .text {
+            width: 100%;
+            padding: 0 10px;
+        }
+
+        & iframe {
+            margin: auto;
+        }
+
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+
+}

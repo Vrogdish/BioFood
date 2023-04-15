@@ -74,6 +74,11 @@ nav {
   gap: 80px;
 }
 
+.menu-mobile {
+  margin: auto 0;
+  display: none;
+}
+
 .banner h2 {
   text-align: center;
 }
@@ -185,6 +190,42 @@ footer i {
 .cards img {
   height: 180px;
   width: 100%;
+}
+
+@media (max-width: 1024px) {
+  header nav {
+    display: none;
+  }
+  .menu-mobile {
+    display: block;
+  }
+  section {
+    width: 100%;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  .banner-link .text {
+    font-size: 18px;
+    padding: 20px 10px;
+  }
+  .banner-link i {
+    padding-left: 20px;
+  }
+  .map {
+    flex-direction: column;
+  }
+  .map .text {
+    width: 100%;
+    padding: 0 10px;
+  }
+  .map iframe {
+    margin: auto;
+  }
+  footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
