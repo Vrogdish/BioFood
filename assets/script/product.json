@@ -1,0 +1,52 @@
+
+    [
+        {
+            "name": "fraise du languedoc",
+            "category": "fruits",
+            "url": "./assets/images/fraises.jpg",
+            "price": "12.5€ le kg"
+        },
+
+        {
+            "name": "framboise",
+            "category": "fruits",
+            "url": "./assets/images/framboises.jpg",
+            "price": "14.5€ le kg"
+        },
+        {
+            "name": "figues",
+            "category": "fruits",
+            "url": "./assets/images/figues.jpg",
+            "price": "19.5€ le kg"
+        },
+        {
+            "name": "mangues",
+            "category": "fruits",
+            "url": "./assets/images/mangues.jpg",
+            "price": "17.5€ le kg"
+        },
+        {
+            "name": "kiwis",
+            "category": "fruits",
+            "url": "./assets/images/kiwis.jpg",
+            "price": "12.5€ le kg"
+        },
+        {
+            "name": "raisins",
+            "category": "fruits",
+            "url": "./assets/images/raisins.jpg",
+            "price": "10.5€ le kg"
+        },
+        {
+            "name": "salades",
+            "category": "legumes",
+            "url": "./assets/images/salades.jpg",
+            "price": "10.5€ le kg"
+        },
+        {
+            "name": "courgettes",
+            "category": "legumes",
+            "url": "./assets/images/courgettes.jpg",
+            "price": "10.5€ le kg"
+        }
+    ]

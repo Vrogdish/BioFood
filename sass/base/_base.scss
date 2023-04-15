@@ -1,0 +1,34 @@
+* , ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background-color: #EDFFD6;
+
+}
+
+h2 {
+    margin: 100px auto;
+    max-width: 840px;
+}
+
+section {
+    margin: 100px auto;
+    width: 70%;
+
+}

@@ -1,0 +1,11 @@
+{
+  "name": "projet-bio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./assets/styles/style.css"
+      },
+  "author": "Cedric",
+  "license": "ISC"
+}

@@ -1,0 +1,51 @@
+.banner-link {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+
+    & img {
+        height: 300px;
+        grid-row: 1;
+        grid-column: 1;
+    }
+
+    & .text {
+        grid-row: 1;
+        grid-column: 1;
+        margin-top: auto;
+        padding: 20px 40px;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: rgba(255, 255, 255, 0.9);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 24px;
+        font-weight: 800;
+    }
+}
+
+.location {
+    & h2 {
+        text-align: center;
+
+    }
+}
+
+.map {
+    display: flex;
+    gap: 80px;
+    justify-content: space-between;
+
+
+    & .text {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+      width: 50%;
+    }
+
+    & h3 {
+        margin-bottom: 20px;
+    }
+
+}
